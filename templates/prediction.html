@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+
+{% block title %}  {{pageTitle}} {% endblock%}
+
+
+
+{% block body%}
+<div class="container full-xd">
+    <div class="container box">
+        <h3 class="text-center tex-primary mb-3">Enter une valeur de superficie</h3>
+        <form id='myForm' action="{{ url_for('predict')}}" method="post">
+            <input name='surface' type="number" placeholder="enter une valeur ">
+
+            <!--<input type="submit" value="Prédire"> -->
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        </form>
+
+        <div class="container box-display">
+            <h2 class="result">
+               <span> {{ pred }}</span>
+            </h2>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    let myform = document.getElementById('myForm');
+
+    myform.addEventListener('submit', function(event) {
+        event.preventDefault(); // Empêche la soumission du formulaire
+    
+        let inputValue = document.querySelector('input[type="number"]').value;
+        console.log('Valeur de l\'input :', inputValue);
+        
+        // Autres actions à effectuer avec la valeur de l'input
+    
+        // Soumettre le formulaire (facultatif)
+        myform.submit();
+    });
+</script>
+
+
+
+
+{% endblock%}

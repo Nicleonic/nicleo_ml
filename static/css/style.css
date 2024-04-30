@@ -1,0 +1,92 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+.full-xd{
+  height: 30rem;
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  width: 30rem;
+}
+.box form{
+  display: flex;
+  flex-direction: column;
+
+}
+input:focus {
+  border: 1px solid rgb(97, 96, 96);
+  box-shadow: none;
+}
+form input{
+  border: 1px solid gray;
+  box-shadow: none;
+  width: 100%;
+  height: 2.5rem;
+  border-radius: .5rem;
+  padding: .5rem;
+  color: rgb(75, 45, 5);
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  margin-bottom: .8rem;      
+}
+input[type='button']{
+  margin-top: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rebeccapurple;
+  color: white;
+  cursor: pointer;
+}
+input[type='button']:hover{
+  background-color:rgb(91, 27, 155) ;
+}
+form input:focus {
+  outline: none;
+}
+.box-display{
+  height: 15rem;
+  margin-top: 1rem;
+  border-radius: .5rem;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.468);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+footer p{
+  font-size: 1rem;
+}
+footer p span{
+  color: rebeccapurple;
+  font-weight: bolder;
+}

@@ -1,0 +1,24 @@
+Ces données représentent des informations sur des biens immobiliers. Voici une description de chaque attribut :
+
+"id" : Identifiant unique de la propriété.
+"date" : Date à laquelle la propriété a été vendue.
+"price" : Prix de vente de la propriété.
+"bedrooms" : Nombre de chambres dans la propriété.
+"bathrooms" : Nombre de salles de bains dans la propriété.
+"sqft_living" : Superficie habitable de la propriété en pieds carrés.
+"sqft_lot" : Superficie du terrain de la propriété en pieds carrés.
+"floors" : Nombre d'étages dans la propriété.
+"waterfront" : Indicateur binaire indiquant si la propriété est en bord de mer (1) ou non (0).
+"view" : Indicateur de la qualité de la vue depuis la propriété.
+"condition" : Évaluation de l'état général de la propriété.
+"grade" : Évaluation globale de la qualité de la construction et du design de la propriété.
+"sqft_above" : Superficie habitable au-dessus du niveau du sol en pieds carrés.
+"sqft_basement" : Superficie habitable du sous-sol en pieds carrés.
+"yr_built" : Année de construction de la propriété.
+"yr_renovated" : Année de rénovation de la propriété. Si la propriété n'a pas été rénovée, la valeur est 0.
+"zipcode" : Code postal de la localisation de la propriété.
+"lat" : Latitude de la localisation de la propriété.
+"long" : Longitude de la localisation de la propriété.
+"sqft_living15" : Superficie habitable moyenne des 15 propriétés les plus proches en pieds carrés.
+"sqft_lot15" : Superficie moyenne des terrains des 15 propriétés les plus proches en pieds carrés.
+Ces attributs fournissent des informations détaillées sur les caractéristiques physiques, l'emplacement et les aspects financiers des biens immobiliers.
